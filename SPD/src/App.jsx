@@ -1,15 +1,9 @@
-import './App.css'
-import LoginPage from './Components/Loginpage.jsx';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  
 
-  return (
-    <>
-      <LoginPage />
-
-    </>
-  )
 }
 
-export default App
+export default App;
