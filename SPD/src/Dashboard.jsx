@@ -1,11 +1,13 @@
-import React from "react";
+import Container from 'react-bootstrap/Container';
+import Navbar from "./components/MainPage/Home/Navbar";
+import './Dashboard.css'; 
 
 const Dashboard = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Welcome to your Dashboard 🎉</h1>
-      <p>You have successfully logged in.</p>
-    </div>
+     <Container fluid className='dashboard-container'>
+       <Navbar/>
+     </Container>
+   
   );
 };
 
